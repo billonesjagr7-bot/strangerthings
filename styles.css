@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Cinzel+Decorative:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('https://i.imgur.com/7Qj1JmJ.jpeg'); /* Dark forest vibe */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Red glowing Stranger Things text */
+.title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #e40000;
+    margin-top: 80px;
+    text-shadow: 
+        0 0 10px #ff0000,
+        0 0 20px #aa0000,
+        0 0 40px #770000;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -10px;
+    color: #ffbbbb;
+}
+
+/* Content cards */
+.content-box {
+    background: rgba(0, 0, 0, 0.7);
+    border-left: 3px solid #e40000;
+    padding: 20px;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+.content-box h2 {
+    color: #ff3b3b;
+    text-shadow: 0 0 5px #ff0000;
+}
+
+ul li {
+    margin: 6px 0;
+}
